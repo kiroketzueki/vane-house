@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "Vane House: Four Colors in the Rain",
+  "short_name": "Vane House",
+  "description": "A 1928 narrative strategy game. You are the new maid at Vane House. Four siblings, four colours, and a week of rain to learn what each of them is hiding.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#120e0c",
+  "theme_color": "#1b1411",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icon-512.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

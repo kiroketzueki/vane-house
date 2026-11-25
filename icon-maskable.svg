@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%"><stop offset="0" stop-color="#2e221b"/><stop offset="1" stop-color="#0f0b09"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6c27a"/><stop offset="1" stop-color="#a97f3a"/></linearGradient>
+    <clipPath id="c"><rect width="512" height="512"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g clip-path="url(#c)" stroke="#b4c4d6" stroke-opacity=".16" stroke-width="2"><line x1="40" y1="-20" x2="-50" y2="540" /><line x1="86" y1="-20" x2="-4" y2="540" /><line x1="132" y1="-20" x2="42" y2="540" /><line x1="178" y1="-20" x2="88" y2="540" /><line x1="224" y1="-20" x2="134" y2="540" /><line x1="270" y1="-20" x2="180" y2="540" /><line x1="316" y1="-20" x2="226" y2="540" /><line x1="362" y1="-20" x2="272" y2="540" /><line x1="408" y1="-20" x2="318" y2="540" /><line x1="454" y1="-20" x2="364" y2="540" /><line x1="500" y1="-20" x2="410" y2="540" /><line x1="546" y1="-20" x2="456" y2="540" /><line x1="592" y1="-20" x2="502" y2="540" /><line x1="638" y1="-20" x2="548" y2="540" /><line x1="684" y1="-20" x2="594" y2="540" /><line x1="730" y1="-20" x2="640" y2="540" /></g>
+  
+  <g>
+    <path d="M150 258 L256 150 L362 258 V382 H150 Z" fill="#231913" stroke="url(#gold)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M150 258 L256 150 L362 258" fill="none" stroke="#f0d596" stroke-width="2" stroke-opacity=".6" transform="translate(0 10)"/>
+    <circle cx="256" cy="196" r="9" fill="#f0d596"/>
+    <rect x="178" y="272" width="64" height="44" rx="3" fill="#c0493c"/>
+    <rect x="270" y="272" width="64" height="44" rx="3" fill="#dcab2c"/>
+    <rect x="178" y="330" width="64" height="44" rx="3" fill="#5b9d6c"/>
+    <rect x="270" y="330" width="64" height="44" rx="3" fill="#5d88bb"/>
+    <g stroke="#231913" stroke-width="3"><path d="M210 272v44M178 294h64M302 272v44M270 294h64M210 330v44M178 352h64M302 330v44M270 352h64"/></g>
+  </g>
+  <rect x="120" y="386" width="272" height="8" rx="2" fill="url(#gold)"/>
+</svg>
