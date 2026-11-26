@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Vane House: Four Colors in the Rain</title>
+  <meta name="description" content="A 1928 narrative strategy game. You are the new maid at Vane House. Four siblings, four colours, and a week of rain to learn what each of them is hiding." />
+  <meta name="theme-color" content="#1b1411" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./icon-512.svg" />
+  <link rel="apple-touch-icon" href="./icon-180.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="rain" id="rain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <div id="app" class="app" aria-live="polite"></div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="modal-title">Ledger</h2>
+        <button id="modal-close" class="btn ghost small" type="button" data-act="close-modal" aria-label="Close">Close ✕</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <noscript><p style="padding:24px;font-family:Georgia,serif;color:#efe4ce">Vane House needs JavaScript to run.</p></noscript>
+
+  <script src="./story.js"></script>
+  <script src="./story-extra.js"></script>
+  <script src="./audio.js"></script>
+  <script src="./engine.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
